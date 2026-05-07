@@ -5,6 +5,13 @@
 .choice-btn:hover, .choice-btn:focus {
   filter: blur(0);
 }
+
+@media (max-width: 600px) {
+  .choice-btn {
+    filter: none !important;
+    pointer-events: auto;
+  }
+}
 .character-label {
   position: absolute;
   top: 32px;
