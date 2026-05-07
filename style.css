@@ -10,6 +10,14 @@
   .choice-btn {
     filter: none !important;
     pointer-events: auto;
+    margin-bottom: 18px !important;
+    margin-top: 0 !important;
+    border-width: 1px !important;
+    border-radius: 10px !important;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .character-label {
